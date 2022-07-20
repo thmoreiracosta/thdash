@@ -59,7 +59,7 @@ export default function Sidebar() {
             <h3>Logout</h3>
           </a>
         </div>
-      </aside>
+      </aside>      
     </div>
   )
 }
