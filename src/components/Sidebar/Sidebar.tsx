@@ -9,7 +9,7 @@ export default function Sidebar() {
           <div className="logo">
             <img src={logo} alt="logo" />
             <h2>
-              EGA<span className="danger">TOR</span>
+              THM<span className="danger">TOR</span>
             </h2>
           </div>
           <div className="close" id="close-btn">
@@ -21,7 +21,7 @@ export default function Sidebar() {
             <span className="material-symbols-sharp">dashboard</span>
             <h3>Dashboard</h3>
           </a>
-          <a href="#">
+          <a href="#" className='active'>
             <span className="material-symbols-sharp">person_outline</span>
             <h3>Customers</h3>
           </a>
@@ -34,7 +34,7 @@ export default function Sidebar() {
             <h3>Analytics</h3>
           </a>
           <a href="#">
-            <span className="material-symbols-sharp">mail_otline</span>
+            <span className="material-symbols-sharp">mail_outline</span>
             <h3>Messages</h3>
             <span className="message-count">26</span>
           </a>
